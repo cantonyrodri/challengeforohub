@@ -1,5 +1,6 @@
 package com.alurachallenge.forohub.jwt;
 
-public class DatosJWT {
-    String jwtToken;
+public record DatosJWT(
+        String jwtToken
+) {
 }
