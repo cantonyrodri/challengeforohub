@@ -1,6 +1,5 @@
 package com.alurachallenge.forohub.service;
 
-import com.alurachallenge.forohub.model.Usuario;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
