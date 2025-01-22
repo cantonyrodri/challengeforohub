@@ -60,7 +60,6 @@ public class PostController {
     @Transactional
     public ResponseEntity<DatosRespuestaPost> actualizarPost(@PathVariable Long id,
             @RequestBody @Valid DatosActualizarPost datosActualizarPost) {
-
         return ResponseEntity.ok(postService.actualizarPost(id, datosActualizarPost));
     }
 
